@@ -58,15 +58,6 @@ class School
         end
       end
     end
-    return rHash
-    rHash.each do | allGrades , studentList|
-      studentList.sort do |val1 , val2|
-        if (val1 > val2)
-          1
-        end
-      end
-    end
-    return rHash
+    return rHash[allGrades]
   end
-
 end
