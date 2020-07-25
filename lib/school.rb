@@ -64,6 +64,7 @@ class School
           1
         end
       end
+    end
     return rHash
   end
 
